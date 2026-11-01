@@ -1,0 +1,11 @@
+{
+  "name": "playtime",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Screen time and reward tokens for kids. Static single-page app with no dependencies.",
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "start": "python3 -m http.server 8000"
+  }
+}
